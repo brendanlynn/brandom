@@ -4,6 +4,8 @@
 
 The Google random number generator or other random number generators available on the internet can rarely generate large numbers. This random number generator has the capacity to generate random numbers in a range much larger than that of a mere 32-bit signed or unsigned integer.
 
+A NuGet package for this project may be found [here](https://www.nuget.org/packages/brendanlynn.brandom).
+
 The allowed commands are:
 
 * ```brandom sbyte/int8_t/__int8```
