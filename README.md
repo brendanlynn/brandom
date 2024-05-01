@@ -1,6 +1,6 @@
 # brandom
 
-'brandom' is a CLI for users to quickly and conveniently generate large or type-specific random numbers. Once installed, it can be called on the command line by that name.
+'brandom' (Brendan's Random) is a CLI for users to quickly and conveniently generate large or type-specific random numbers. Once installed, it can be called on the command line by that name.
 
 The Google random number generator or other random number generators available on the internet can rarely generate large numbers. This random number generator has the capacity to generate random numbers in a range much larger than that of a mere 32-bit signed or unsigned integer.
 
