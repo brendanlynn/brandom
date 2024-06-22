@@ -19,7 +19,7 @@ switch (args.Length)
 {
     case 0:
         WriteLine("Welcome to Brendan's Random!");
-        WriteLine("Version 1.0.0!");
+        WriteLine("Version 1.1.0!");
         return;
     case 1:
         switch (args[0].ToLower())
