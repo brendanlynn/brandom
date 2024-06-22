@@ -22,30 +22,30 @@ switch (args.Length)
         WriteLine("Version 1.0.0.0!");
         return;
     case 1:
-        switch (args[0])
+        switch (args[0].ToLower())
         {
-            case "sbyte" or "int8_t" or "__int8":
+            case "sbyte" or "int8_t" or "int8" or "i8" or "__int8":
                 WriteLine(Gen_AllIn<sbyte>());
                 return;
-            case "byte" or "uint8_t" or "256":
+            case "byte" or "uint8_t" or "uint8" or "ui8" or "256":
                 WriteLine(Gen_AllIn<byte>());
                 return;
-            case "short" or "int16_t" or "__int16":
+            case "short" or "int16_t" or "int16" or "i16" or "__int16":
                 WriteLine(Gen_AllIn<short>());
                 return;
-            case "ushort" or "uint16_t" or "65536":
+            case "ushort" or "uint16_t" or "uint16" or "ui16" or "65536":
                 WriteLine(Gen_AllIn<ushort>());
                 return;
-            case "int" or "int32_t" or "__int32":
+            case "int" or "int32_t" or "int32" or "i32" or "__int32":
                 WriteLine(Gen_AllIn<int>());
                 return;
-            case "uint" or "uint32_t" or "4294967296":
+            case "uint" or "uint32_t" or "uint32" or "ui32" or "4294967296":
                 WriteLine(Gen_AllIn<uint>());
                 return;
-            case "long" or "int64_t" or "__int64":
+            case "long" or "int64_t" or "int64" or "i64" or "__int64":
                 WriteLine(Gen_AllIn<long>());
                 return;
-            case "ulong" or "uint64_t" or "18446744073709551616":
+            case "ulong" or "uint64_t" or "uint64" or "ui64" or "18446744073709551616":
                 WriteLine(Gen_AllIn<ulong>());
                 return;
             default:
